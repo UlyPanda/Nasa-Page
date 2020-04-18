@@ -1,0 +1,57 @@
+body {
+    width: 850px;
+    margin: 0 auto;
+    color: whitesmoke;
+
+}
+
+
+  
+  h1 {
+    position: relative;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 6em;
+  }
+main {
+    margin: 0 auto;
+    height: 450px;
+    color: whitesmoke;
+    font-family: 'Anton', sans-serif;
+    background-image: url(https://www.scienceabc.com/wp-content/uploads/2016/03/space-shuttle-launch.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+section {
+    display: flex;
+    height: 324px;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(230, 230, 230);
+    margin: 20px auto;
+}
+
+article {
+    width: 270px;
+    height: 324px;
+    background-color:transparent;
+    color:black;
+    padding-left: 40px;
+    padding-bottom: 40px;
+}
+h3 {
+  font-family: 'Baloo Tamma 2', cursive;
+}
+p {
+  margin:6px auto;
+  font-family: 'Baloo Tamma 2', cursive;
+  font-family: 'Open Sans', sans-serif;
+  color:rgb(83, 83, 83)
+
+}
